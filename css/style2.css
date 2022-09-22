@@ -1,0 +1,84 @@
+button,input{
+  outline:0;
+  border:0;
+}
+body{
+  text-align:center;
+  margin:400px auto;
+  box-sizing: border-box;
+  background-color: #5B2386;
+}
+.wrapper{
+  padding:30px;
+
+
+}
+.header-1hours{
+  background-image: url("../img/clock.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  
+
+}
+.header-1hours{
+  margin-bottom:100px;
+}
+.cont-1hours{
+
+}
+.cont-1hours .cont__wise{
+  margin-bottom:100px;
+}
+
+.cont-1hours .cont__desc{
+  color:white;
+  margin-bottom:100px;
+}
+.cont-1hours .cont__desc strong{
+  font-size:20px;
+}
+.res-1hours{
+
+}
+.res-1hours .want{
+  color:white;
+  margin-bottom:100px;
+
+}
+.res-1hours input{
+  margin:0 10px;
+}
+.res-1hours .time{
+  color:white;
+  margin-bottom:100px;
+
+}
+.res-1hours input{
+  margin:0 10px;
+}
+.res-1hours .btn-res{
+  margin-bottom:100px;
+}
+.res-1hours .want-res{
+  color:white;
+  margin-bottom:100px;
+}
+.res-1hours .time-res{
+  color:white;
+  margin-bottom:100px;
+}
+.res-1hours .btn-go{
+  margin-bottom:100px;
+}
+.res-1hours .btn-share{
+  margin-bottom:100px;
+}
+.footer-1hours{
+
+}
+.footer-1hours .footer-logo{
+
+}
+.footer-1hours .txt-footer{
+  
+}

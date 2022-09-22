@@ -1,0 +1,221 @@
+@font-face {
+    font-family: 'OTEnjoystoriesBA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2") format('woff2'),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff") format('woff'),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf") format('opentype');
+}
+body{
+    background-color: #5B2386;
+    margin: 0 auto;
+}
+.btn{
+    height: 66px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 56px;
+    color:#5B2386;
+    font-family: 'GmarketSansbold';
+    font-size: 24px;
+    outline:0;
+    border:0;
+}
+.blind{
+    display:none;
+}
+.contents{
+    background-color: #5B2386;
+    text-align:center;
+}
+.contents .tit-timelaw{
+    
+}
+
+.contents .img-law{
+    position:relative;
+    display:block;
+    margin:0px auto;
+    width:529.6px;
+    height:112.01px;
+    top:160px;
+
+}
+.contents .img-clock{
+    width:221.6px;
+    height:225px;   
+}
+.contents .img-wise{
+    position:relative;
+    top:50px;
+}
+
+.contents .img-quo{
+    position:relative;
+    display:block;
+    position:relative;
+    margin:0 auto;
+    top:170px;
+    width:600px;
+    
+}
+.contents .cont-def {
+    margin:100px;
+    
+}
+.contents .cont-def .txt-desc strong{
+    font-size:24px;
+    line-height:35px;
+    font-family: 'GmarketSansBold';
+}
+.contents .cont-def .txt-desc{
+    margin:0 auto;
+    font-size:18px;
+    line-height:35px;
+    color: #FFFFFF;
+    font-weight:400;
+    color:#FFFFFF;
+    font-family: 'GmarketSansMedium';
+}
+
+
+.cont-inp{
+   color:#FFFFFF;
+   font-family: 'GmarketSansMedium';
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 24px;
+   
+}
+.cont-inp .txt-wannabe{
+    margin-bottom:30px;
+}
+.cont-inp .txt-wannabe input{
+    width:228px;
+    height:57px;
+    font-family: 'GmarketSansMedium';
+    border-radius: 7px;
+    font-size:24px;
+    line-height:24px;
+    text-align:center;
+  
+}
+.cont-inp .txt-time{
+    display:inline-block;
+    margin-bottom:20px;
+}
+.cont-inp .txt-time input{
+    width:228px;
+    height:57px;
+    border-radius: 7px;
+    font-family: 'GmarketSansMedium';
+    text-align:center;
+    font-size:24px;
+    line-height:24px;
+    color:#BABCBE;
+
+}
+
+.cont-inp  .btn-res{
+    margin-top:90px;
+    background-color:#FCEE21;
+    width: 565px;
+    
+}
+.cont-result{
+    color:#FFFFFF;
+    margin:100px;
+}
+.cont-result .txt-res{
+    font-size:24px;
+    font-family: 'GmarketSansMedium';
+    line-height:100px;
+}
+.cont-result .txt-res .re-wanabe,.re-time{
+     font-size:72px;
+     font-family: 'GmarketSansbold';
+     margin:0 10px;
+
+}
+.cont-result .btn-go{
+    background-color:#FCEE21;
+    width: 356px;
+    margin:100px 18px 0;
+    margin-bottom:20px;
+}
+.cont-result .btn-share{
+    width: 191px;
+}
+.cont-footer{
+    text-align:center;
+    font-family: 'GmarketSansbold';
+    margin-bottom:90px;
+}
+.cont-footer .footer-log{
+   display:block;
+   margin-bottom:100px;
+}
+.cont-footer .txt-footer{
+    font-size:12px;
+    line-height: 20px;
+    font-family:'Noto Sans KR';
+    color:#FFFFFF;
+}
+.cont-modal{
+   position:fixed;
+   top:50%;
+   left:50%;
+   transform:translate(-50%,-50%);
+   width:947px;
+   height:951px;
+   margin:0 auto;
+   text-align:center;
+   background-color:white;
+   border-radius:50px;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+   box-sizing: border-box;
+   padding:150px;
+   display:none;
+   
+}
+.cont-modal .modal-fighting{
+    display:block;
+    margin:0 auto;
+}
+.cont-modal .modal-phrase{
+    display:block;
+    margin:0 auto;
+
+}
+.cont-modal .modal-character{
+    display:block;
+    margin:50px auto;
+}
+.cont-modal .btn-go{
+    width:508px;
+    background-color:#FCEE21;
+    Padding :21px,49px,21px,49px;
+}
+@media(max-width:483px){
+ 
+}
