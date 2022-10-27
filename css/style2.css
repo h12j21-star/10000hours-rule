@@ -69,13 +69,9 @@ body{
   text-align: center;
   width:564px;
   height:112px;
-  
-  
-  
-}
-.cont-1hours{
 
 }
+
 .cont-1hours .cont__wise{
 
   margin-bottom:100px;
@@ -102,27 +98,23 @@ body{
   font-size:20px;
   font-family: 'GmarketSansBold';
 }
-.res-1hours{
-
-}
-.res-1hours .want,.res-1hours .time{
+ .want,.time{
   color:white;
   margin-bottom:100px;
   font-size:24px;
   font-family: 'GmarketSansMedium';
 }
-.res-1hours input,.res-1hours input{
+ .inp-want,
+ .inp-time{
   margin:0 10px;
   width:228px;
   height:57px;
   border-radius: 7px;
   font-size:24px;
   text-align: center;
-  font-family: 'GmarketSansMedium';
-  
+  font-family: 'GmarketSansMedium'; 
 }
-
-.res-1hours .btn-res{
+.btn-res{
   margin-bottom:100px;
   width:565px;
   height:66px;
@@ -133,13 +125,13 @@ body{
   font-family: 'GmarketSansBold';
 
 }
-.res-1hours .want-res,.res-1hours .time-res{
+.want-res,.time-res{
   color:white;
   margin-bottom:100px;
   font-size:24px;
   font-family: 'GmarketSansMedium';
 }
-.res-1hours .want-res strong ,.res-1hours .time-res strong{
+.want-res .re-wanabe ,.time-res .re-time{
   color:white;
   margin-bottom:100px;
   font-size:72px;
@@ -149,7 +141,7 @@ body{
   display:flex;
   justify-content: center;
 }
-.res-1hours .btn-go{
+.btn-go{
   margin-bottom:100px;
   width:356px;
   height:66px;
@@ -160,7 +152,7 @@ body{
   font-family: 'GmarketSansBold';
   margin-right:8px;
 }
-.res-1hours .btn-share{
+ .btn-share{
   margin-bottom:100px;
   margin-bottom:100px;
   width:191px;
@@ -171,24 +163,19 @@ body{
   color:#5B2386;
   font-family: 'GmarketSansBold';
 }
-.footer-1hours{
 
-}
-.footer-1hours .footer-logo{
-  
-}
 .footer-1hours .txt-footer{
   margin-top: 10px;
   font-family: 'Noto Sans KR';
   color:white;
-  font-size: 12px;;
+  font-size: 12px;
 }
 .cont-modal{
   position:fixed;
   top:50%;
   left:50%;
   transform:translate(-50%,-50%);
-  width:900px;
+  width:800px;
   height:800px;
   margin:0 auto;
   text-align:center;
@@ -220,6 +207,17 @@ body{
    color:#5B2386;
    font-family: 'GmarketSansBold';
 }
-@media(max-width:483px){
-
+@media (max-width:620px){
+  .want span,.time span{
+    display:block;
+    margin-top:12px;
+  }
+  .btn-res{
+    font-size:1em;
+    width:55vw;
+    height:10vh;
+  
+   
+  
+}
 }
